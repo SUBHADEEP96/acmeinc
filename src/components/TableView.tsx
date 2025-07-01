@@ -52,7 +52,7 @@ export default function TableView() {
                 key={h}
                 className="px-4 py-2 border-b text-left text-sm font-medium text-gray-700"
               >
-                {h}
+                {h.charAt(0).toUpperCase() + h.slice(1)}
               </th>
             ))}
             <th className="px-4 py-2 border-b text-left text-sm font-medium text-gray-700">
